@@ -1,0 +1,43 @@
+
+
+.btn {
+    box-shadow: none !important;
+}
+
+.nav-link {
+    padding: 8px 10px 8px 10px;
+    border-radius: 2px !important;
+    margin-right: 3px;
+}
+
+.nav-link.active {
+    background: #0e5434 !important;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background: #0e5434;
+    border-radius: 5px;
+}
+
+
+footer .nav-link, footer .nav-link.active {
+    background: #fff !important;
+    color: #000;
+}
+
+/*!----: Parrallax :----!*/
+
+.parrallax {
+    position: relative;
+    text-align: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none !important;
+} 
